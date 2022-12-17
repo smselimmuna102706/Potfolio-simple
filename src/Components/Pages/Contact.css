@@ -1,0 +1,83 @@
+.contact{
+    padding: 5% 10% 5%;
+    background-image: url(../Resource/Images/kkkk.png);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.contact-info-right{}
+.contact-info-right h3 {
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    margin: 20px 20px;
+  }
+  .contact-info-right label {
+    font-size: 20px;
+    color: #1a1617;
+    font-weight: 600;
+  }
+.contact-info-right input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #2fb1c0;
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .contact-info-right textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    color: #2fb1c0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .contact-info-right button {
+    background: #61dafb;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 18px;
+  }
+
+  .contact-info-left img{
+    margin-top: 80px;
+  }
+
+
+
+
+.contact-heading{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.contact-heading h1{
+    font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+.contact-heading p{
+    font-size: 20px;
+    color: purple;
+}

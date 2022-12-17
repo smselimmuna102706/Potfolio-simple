@@ -1,0 +1,63 @@
+.MainNavbar {
+  background-color: #fde6e0;
+  padding: 0px 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid #8080805e;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.middle ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.middle ul li {
+  list-style: none;
+  transition: all .5s;
+}
+
+
+.middle ul li a {
+  text-decoration: none;
+  margin-right: 31px;
+  margin-left: 8px;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+.middle ul li:hover {
+  transform: scale(.9);
+}
+
+.right button {
+  margin-left: 199px;
+  padding: 7px 43px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0f0c0c;
+  background: #61DAFB;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .5s;
+
+}
+
+.right button:hover {
+  background-color: white;
+  border: 1px solid #61dafb;
+  color: red;
+}
+
+.name-style {
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

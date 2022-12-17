@@ -1,0 +1,21 @@
+.footer-bottom{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .footers{
+    padding: 1% 10%;
+    background-color: rgb(101, 101, 105);
+  }
+
+  .footer-bottom h6 {
+    font-size: 15px;
+    margin-bottom: -10px;
+    color: white;
+  }
+  .footer-bottom p {
+    font-size: 15px;
+    color: white;
+  }
+  

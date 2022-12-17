@@ -1,0 +1,86 @@
+.services{
+    padding: 5% 10%;
+    background-image: url(../Resource/Images/s-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 150vh;
+}
+.services-heading{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.services-heading h1 {
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-bottom: -1px;
+    margin-top: -3px;
+  }
+  .services-heading p {
+    color: purple;
+    font-size: 20px;
+  }
+
+  .services-info{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+
+  }
+
+  .s-skill {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 100px ;
+    margin: 0px 20px 30px;
+    transition: all .5s;
+    cursor: pointer;
+  }
+
+  .s-skill:hover{
+       transform: scale(0.9);
+  }
+
+  .s-skill .s-icon {
+    font-size: 58px;
+    color: red;
+    margin: 5px 10px;
+  }
+  
+
+
+  .s-skill h2{
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .s-skill h4{
+    width: 50px;
+height: 50px;
+margin: auto;
+border: 1px solid red;
+border-radius: 50%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+transition: all .4s;
+
+  }
+
+  .s-skill h4:hover{
+    background-color: red;
+    color: white;
+  }
+  .s-skill p {
+    color: purple;
+    font-size: 16px;
+  }

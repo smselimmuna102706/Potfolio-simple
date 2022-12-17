@@ -1,0 +1,84 @@
+.footer-section {
+  padding: 5% 10%;
+  background-image: url(../Resource/Images/footer4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-first {}
+
+.footer-first h4 {
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.footer-first p,
+.footer-fourth p {
+  color: purple;
+  font-size: 16px;
+}
+
+.footer-second h5,
+.footer-third h5,
+.footer-fourth h5 {
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+.footer-second ul,
+.footer-third ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-second ul li,
+.footer-third ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-second ul li a,
+.footer-third ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: purple;
+}
+
+.footer-second ul li a:hover,
+.footer-third ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-fourth input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 22px;
+  color: #2fb1c0;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.f-icon {
+  font-size: 25px;
+  color: red;
+  margin-right: 19px;
+  transition: all .5s;
+}
+
+.f-icon:hover {
+  transform: translateY(-10px);
+}

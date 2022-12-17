@@ -1,0 +1,40 @@
+
+.about2-section{
+    padding: 5% 10%;
+}
+
+.about-bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.about-bottom-left img {
+    margin-left: 100px;
+    margin-top: -20px;
+    border-radius: 100px;
+  }
+  .about-bottom-right{
+    margin-top: -20px;
+  }
+  .about-bottom-right h1 {
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+  }
+  .about-bottom-right h3 {
+    font-size: 22px;
+    margin-top: -20px;
+  }
+  .about-bottom-right h4 {
+    color: lightgray;
+    font-size: 20px;
+  }
+  .about-bottom-right p {
+    line-height: 1.5;
+    color: #464242;
+    font-size: 18px;
+  }
